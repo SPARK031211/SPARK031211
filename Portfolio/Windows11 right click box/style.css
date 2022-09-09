@@ -1,0 +1,107 @@
+/*******************
+	   배경 색상
+*******************/
+
+body {
+	background-color: gray;
+}
+
+/*******************
+	오른쪽 글씨 색상
+*******************/
+
+.other-color {
+	color: gray;
+}
+
+/*******************
+	   마커 제거
+*******************/
+
+li {
+	list-style:none;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+/*******************
+	   > 위치
+*******************/
+
+#first-left-padding {
+	padding-left: 323px;
+}
+
+#second-left-padding {
+	padding-left: 357px;
+}
+
+#third-left-padding {
+	padding-left: 284px;
+}
+
+#fourth-left-padding {
+	padding-left: 276px;
+}
+
+#fifth-left-padding {
+	padding-left: 259px;
+}
+
+#cmd-left-padding {
+	padding-left: 18px;
+}
+
+#alt-enter-left-padding {
+	padding-left: 250px;
+}
+
+#shift-f10-left-padding {
+	padding-left: 134px;
+}
+
+/*******************
+   오른쪽 아이콘 위치
+*******************/
+
+#right-padding {
+	padding-right: 15px;
+}
+
+/*******************
+	   하단 바
+*******************/
+
+.top-bar {
+	border-bottom: solid 3px #e9e9e9;
+}
+
+.bottom-bar {
+	border-bottom: solid 3px #e9e9e9;
+}
+
+/*******************
+	   중앙 배열
+*******************/
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*******************
+	  우클릭 상자
+*******************/
+
+.right-click-box {
+	width: 435px;
+	height: 322px;
+	background-color: #edf4f9;
+	border-radius: 10px;
+	border: solid 3px #e9e9e9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
