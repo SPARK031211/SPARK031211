@@ -1,0 +1,63 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>디스코드 웹룩 빠른 문의</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body>
+	<!-- chatBot -->
+	<div class="contact-box-main">
+        <div class="contact-container">  
+            <div id="contact">
+                <div class="not-send">
+                    <button style="position: absolute; top: 11%; right: 3%;" id="contact_box_main_close">X</button>
+                    <h3>빠르게 문의하기</h3>
+                    <h4 style="color: black;">
+                        최대 48시간 이내에 답변이 발송됩니다.</br>
+                        (친구요청 거부시 수신거부로 간주됨)
+                    </h4>
+                    <fieldset>
+                        <input id="webhook_discord_name" placeholder="디스코드 이름#테그" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input id="webhook_title" placeholder="제목" type="text" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <input id="webhook_image_or_video_url" placeholder="이미지 또는 동영상 주소(url)" type="url" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea id="webhook_message" placeholder="메시지를 입력해주세요...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                    <button name="submit" type="submit" onclick="sendMessage()">전송하기</button>
+                    </fieldset>
+                </div>
+
+                <div class="success-send" style="display: none;">
+                    <h3 stlye="text-align: center;">성공적으로 전송됬습니다.</h3>
+                    <h4 id="auto_close_count" style="color: black; text-align: center;"></h4>
+                    <fieldset style="align-items: center;">
+                        <button style="position: absolute; left: 37%;" id="contact-submit">이곳을 눌러서 닫기</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- chatBot -->
+    <div>
+        <a id="chatBot">chat bot</a>
+        <div id="chatBot_message">
+            <img src="./images/White-Logo50x50.png" alt="ChatBot Message" />
+            <a class="img2">빠르게 문의 할 수 있는 쳇봇입니다.</a>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
