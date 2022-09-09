@@ -8,7 +8,7 @@
 | GITHUB | https://github.com/PSM-031211/PSM9041 |
 
 ## Portfolio / 포트폴리오
-| GITHUB | https://github.com/PSM-031211/PSM9041/Portfolio |
+| GITHUB | https://github.com/PSM-031211/PSM9041/tree/main/Portfolio |
 
 ## My Status
 ![PSM's github stats](https://github-readme-stats.vercel.app/api?username=psm-031211&show_icons=true&theme=solarized-light)
