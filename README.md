@@ -13,4 +13,4 @@
 ## My Status
 ![PSM's github stats](https://github-readme-stats.vercel.app/api?username=SPARK031211&show_icons=true&theme=solarized-light)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SPARK031211)](https://github.com/SPARK031211)
