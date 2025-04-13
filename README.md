@@ -11,6 +11,7 @@
 | GITHUB | Scheduled to be uploaded again |
 
 ## My Status
-![PSM's github stats](https://github-readme-stats.vercel.app/api?username=SPARK031211&show_icons=true&theme=solarized-light)
+[![SPARK's GitHub stats](https://github-readme-stats.vercel.app/api?username=SPARK031211)](https://github.com/SPARK031211/github-readme-stats)
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SPARK031211)](https://github.com/SPARK031211)
