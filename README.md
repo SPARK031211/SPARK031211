@@ -15,5 +15,3 @@
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SPARK031211)](https://github.com/SPARK031211)
-
-[SPARK031211][[repository](https://github.com/SPARK031211)]
